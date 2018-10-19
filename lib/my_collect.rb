@@ -2,8 +2,8 @@ def my_collect(array)
   i = 0
   new_array = []
   while i < array.length
-    
-    new_array << yield array[i]
+    x =  yield array[i]
+    new_array << x
     i += 1
   end
   puts new_array
